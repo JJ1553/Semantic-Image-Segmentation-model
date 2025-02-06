@@ -34,7 +34,7 @@ This project implements a **semantic segmentation model** using **PyTorch** to s
 - Outputs **original images, binary masks, and overlayed predictions**  
 
 ### **Example Model Predictions**  
-![Predictions](images/output_2_2.png)
+![Predictions](output_2_2.png)
 
 ### **Training Metrics**  
-![Training Progress](images/output_1_0.png)
+![Training Progress](output_1_0.png)
