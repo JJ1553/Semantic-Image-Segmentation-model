@@ -3,7 +3,7 @@
 # Background-Foreground Separation (BFS) using Deep Learning  
 
 ## Overview  
-This project implements a **semantic segmentation model** using **PyTorch** to separate foreground objects (vehicles) from background in traffic camera images. The model is trained on a dataset of urban traffic scenes and aims to improve **background-foreground separation (BFS)** through deep learning techniques.  
+This project implements a **semantic segmentation model** using **PyTorch** to separate foreground objects (vehicles, pedestrians) from background in traffic camera images. The model is trained on a dataset of urban traffic scenes and aims to improve **background-foreground separation (BFS)** through deep learning techniques.  
 
 ## Features  
 - Custom **PyTorch Dataset** class for structured data loading  
@@ -32,4 +32,9 @@ This project implements a **semantic segmentation model** using **PyTorch** to s
 ## Inference & Visualization  
 - Predicts segmentation masks on new traffic camera images  
 - Outputs **original images, binary masks, and overlayed predictions**  
-- Uses **matplotlib for result visualization**  
+
+### **Example Model Predictions**  
+![Predictions](images/output_2_2.png)
+
+### **Training Metrics**  
+![Training Progress](images/output_1_0.png)
